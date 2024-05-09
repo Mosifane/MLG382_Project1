@@ -1,0 +1,14 @@
+,Column Name,missing Values,Data Type,Description
+0,Loan_ID,0,object,individual load id
+1,Gender,13,object,Gender: Male or Female
+2,Married,3,object,Maritual status: No/Yes
+3,Dependents,15,object,Dependents: numeric has + next to the number for more than 3
+4,Education,0,object,Eduacation: Graduate/ Not Graduate
+5,Self_Employed,32,object,Self_Employes: Yes/No
+6,ApplicantIncome,0,int64,Applicant income: positive whole numbers
+7,CoapplicantIncome,0,float64,CoApplicantIncome: Positive whole numbers
+8,LoanAmount,22,float64,LoanAmount: positive whole number
+9,Loan_Amount_Term,14,float64,Loan_Amount_Term: positive integer
+10,Credit_History,50,float64,Credit history: postive integer
+11,Property_Area,0,object,"Property_Area: Urban, Semiurban, Rural"
+12,Loan_Status,0,object,Loan_Status: Yes/No
