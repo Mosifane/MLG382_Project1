@@ -1,0 +1,15 @@
+How the py file works:
+
+When the user runs the code:
+1. The csv file is read and stored as a dataframe.
+2. The dataframe is then used by a function 'add_missing()' to add values to the dataframe,
+   where there are missing values, 'Loan_Amount_Term'.
+3. Graphs are displayed indicating the Loan Status Imbalance, BoxPlot for Applicant Income and
+   BoxPlot for Applicant Income, where the feature is against the target.
+4. After the missing values are added the updated dataframe is now 'df_add_missing'.
+5. The new dataframe is then used by a function 'prep_data()', to remove outliers in
+   the 'ApplicantIncome' column.
+6. The updated dataframe is called 'df_preped_data'.
+7. A function 'displayGraph()', uses the updated dataframe to display univariate graphs of the 'Loan_Amount_Term'.
+8. The updated dataframe is then stored in a csv file called 'preped_data.csv'
+9. The current dataframe is displayed, 'df_preped_data'
