@@ -45,5 +45,4 @@ legend_text = [
     f"Total number of Female: {gender_totals[1]}\n",
 ]
 plt.legend(labels=legend_text, loc='upper right', facecolor=None)
-
 plt.show()
