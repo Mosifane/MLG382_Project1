@@ -1,3 +1,0 @@
-Total Income: Create a new feature by adding ApplicantIncome and CoapplicantIncome. This could give a better insight into the total financial strength of the applicant and their co-applicant.
-Loan Amount to Total Income Ratio: Divide LoanAmount by the total income (sum of ApplicantIncome and CoapplicantIncome). This could indicate the proportion of the loan amount compared to the total income of the applicant.
-Loan Amount to Applicant Income Ratio: Divide LoanAmount by ApplicantIncome. This could indicate how much of the applicant's income is dedicated to paying off the loan.
